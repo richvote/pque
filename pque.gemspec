@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["richvote@gmail.com"]
 
   spec.summary       = %q{Priority Que for ruby}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/richvote/pque"
   spec.license       = "MIT"
 
