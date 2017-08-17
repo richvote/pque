@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="635de8d1-9237-42ab-9285-e36f2beef1d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pque/version.rb" afterPath="$PROJECT_DIR$/lib/pque/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pque.gemspec" afterPath="$PROJECT_DIR$/pque.gemspec" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,22 +31,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pque.gemspec" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pque.gemspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pque.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="270">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
-                <marker date="1502932755000" expanded="true" signature="162:1374" ph="do ... end" />
-                <marker date="1502932755000" expanded="true" signature="848:957" ph="if ... end" />
-                <marker date="1502932755000" expanded="true" signature="1020:1072" ph="do ... end" />
-                <marker date="1502932755000" expanded="true" signature="1152:1176" ph="{ ... }" />
+                <marker date="1502932999000" expanded="true" signature="162:1276" ph="do ... end" />
+                <marker date="1502932999000" expanded="true" signature="751:859" ph="if ... end" />
+                <marker date="1502932999000" expanded="true" signature="922:974" ph="do ... end" />
+                <marker date="1502932999000" expanded="true" signature="1054:1078" ph="{ ... }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pque/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -67,8 +67,8 @@
         <option value="$PROJECT_DIR$/lib/pque.rb" />
         <option value="$PROJECT_DIR$/test/pque_test.rb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pque.gemspec" />
         <option value="$PROJECT_DIR$/lib/pque/version.rb" />
+        <option value="$PROJECT_DIR$/pque.gemspec" />
       </list>
     </option>
   </component>
@@ -401,7 +401,7 @@
       <workItem from="1502890453974" duration="2366000" />
       <workItem from="1502894478806" duration="636000" />
       <workItem from="1502896133890" duration="177000" />
-      <workItem from="1502930208992" duration="1077000" />
+      <workItem from="1502930208992" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1502932816444</created>
@@ -410,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502932816444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ini">
+      <created>1502932860596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502932860596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ini">
+      <created>1502932910859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502932910859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,7 +451,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4364000" />
+    <option name="totallyTimeSpent" value="4523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="0" />
@@ -524,10 +538,10 @@
         <state relative-caret-position="255">
           <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
-            <marker date="1502932755000" expanded="true" signature="162:1374" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="848:957" ph="if ... end" />
-            <marker date="1502932755000" expanded="true" signature="1020:1072" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="1152:1176" ph="{ ... }" />
+            <marker date="1502932999000" expanded="true" signature="162:1276" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="751:859" ph="if ... end" />
+            <marker date="1502932999000" expanded="true" signature="922:974" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="1054:1078" ph="{ ... }" />
           </folding>
         </state>
       </provider>
@@ -597,10 +611,10 @@
         <state relative-caret-position="255">
           <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
-            <marker date="1502932755000" expanded="true" signature="162:1374" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="848:957" ph="if ... end" />
-            <marker date="1502932755000" expanded="true" signature="1020:1072" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="1152:1176" ph="{ ... }" />
+            <marker date="1502932999000" expanded="true" signature="162:1276" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="751:859" ph="if ... end" />
+            <marker date="1502932999000" expanded="true" signature="922:974" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="1054:1078" ph="{ ... }" />
           </folding>
         </state>
       </provider>
@@ -724,24 +738,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pque.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <marker date="1502932755000" expanded="true" signature="162:1374" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="848:957" ph="if ... end" />
-            <marker date="1502932755000" expanded="true" signature="1020:1072" ph="do ... end" />
-            <marker date="1502932755000" expanded="true" signature="1152:1176" ph="{ ... }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pque/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pque.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1502932999000" expanded="true" signature="162:1276" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="751:859" ph="if ... end" />
+            <marker date="1502932999000" expanded="true" signature="922:974" ph="do ... end" />
+            <marker date="1502932999000" expanded="true" signature="1054:1078" ph="{ ... }" />
+          </folding>
         </state>
       </provider>
     </entry>
