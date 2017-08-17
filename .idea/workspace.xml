@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="635de8d1-9237-42ab-9285-e36f2beef1d1" name="Default" comment="ini">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pque-0.1.0.gem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pque-0.1.01.gem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pque-0.1.02.gem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pque-0.1.03.gem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pque-0.1.04.gem" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/richvote.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/pque.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="635de8d1-9237-42ab-9285-e36f2beef1d1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -291,7 +283,7 @@
       <workItem from="1502896133890" duration="177000" />
       <workItem from="1502930208992" duration="1647000" />
       <workItem from="1502934146954" duration="68000" />
-      <workItem from="1502934705783" duration="794000" />
+      <workItem from="1502934705783" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1502932816444</created>
@@ -342,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502935223372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ini">
+      <created>1502935506542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502935506542</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -369,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5796000" />
+    <option name="totallyTimeSpent" value="5945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="0" />
