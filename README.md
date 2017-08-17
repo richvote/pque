@@ -1,7 +1,7 @@
 # Pque
 
 Priority Que for ruby.
-Implementing Heap tree on Array, child1 as i*2 + 1, child2 as i*2 + 2.
+Implementing Heap tree on Array, child1 as i\*2 + 1, child2 as i\*2 + 2.
 
 
 ## Installation
