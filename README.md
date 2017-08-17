@@ -1,8 +1,8 @@
 # Pque
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pque`. To experiment with that code, run `bin/console` for an interactive prompt.
+Priority Que for ruby.
+Implementing Heap tree on Array, child1 as i*2 + 1, child2 as i*2 + 2.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -21,9 +21,21 @@ Or install it yourself as:
     $ gem install pque
 
 ## Usage
+```
+require 'pque'
 
-TODO: Write usage instructions here
-
+pq = Pque.new
+pq.push(1)
+pq.push(5)
+pq.push(4)
+pq.push(3)
+pq.pop    #=> 5
+pq.pop    #=> 4
+pq.push(2)
+pq.pop    #=> 3
+pq.pop    #=> 2
+pq.pop    #=> 1
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

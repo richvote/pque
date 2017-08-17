@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yoshikazu Fukaya"]
   spec.email         = ["richvote@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
+  spec.summary       = %q{Priority Que for ruby}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/richvote/pque"
   spec.license       = "MIT"

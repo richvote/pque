@@ -1,3 +1,3 @@
-module Pque
-  VERSION = "0.1.0"
+class Pque < Array
+  VERSION = "0.1.03"
 end
