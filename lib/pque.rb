@@ -37,7 +37,7 @@ class Pque < Array
       i = child1
     end
     self[i] = x
-    # self.delete_at(-1)
+    self.delete_at(-1)
     ret
   end
 
