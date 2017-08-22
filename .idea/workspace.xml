@@ -4,6 +4,7 @@
     <list default="true" id="635de8d1-9237-42ab-9285-e36f2beef1d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pque.rb" afterPath="$PROJECT_DIR$/lib/pque.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/pque_test.rb" afterPath="$PROJECT_DIR$/test/pque_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,15 +15,25 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pque@Run_test__pque_test___pque.coverage" NAME="Run test 'pque_test': pque Coverage Results" MODIFIED="1502891443580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pque" />
-    <SUITE FILE_PATH="coverage/pque@All_tests_in_test__pque.coverage" NAME="All tests in test: pque Coverage Results" MODIFIED="1503114790884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pque" />
+    <SUITE FILE_PATH="coverage/pque@All_tests_in_test__pque.coverage" NAME="All tests in test: pque Coverage Results" MODIFIED="1503392522705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pque" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pque.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pque.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pque.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pque_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/pque_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -33,6 +44,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_30.rb" root0="FORCE_HIGHLIGHTING" />
@@ -41,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/pque_test.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/pque/version.rb" />
         <option value="$PROJECT_DIR$/pque.gemspec" />
@@ -49,6 +64,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_30.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_31.rb" />
         <option value="$PROJECT_DIR$/lib/pque.rb" />
+        <option value="$PROJECT_DIR$/test/pque_test.rb" />
       </list>
     </option>
   </component>
@@ -136,6 +152,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pque" type="cbb8eebc:String" user="pque" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pque" type="cbb8eebc:String" user="pque" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pque" type="cbb8eebc:String" user="pque" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,23 +201,6 @@
               <item name="pque" type="b2602c69:ProjectViewProjectNode" />
               <item name="pque" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="pque" type="cbb8eebc:String" user="pque" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="pque" type="cbb8eebc:String" user="pque" />
-              <item name="lib" type="cbb8eebc:String" user="lib" />
             </path>
           </expand>
           <select />
@@ -329,7 +350,9 @@
       <workItem from="1503022036345" duration="866000" />
       <workItem from="1503027087634" duration="1024000" />
       <workItem from="1503029339506" duration="13000" />
-      <workItem from="1503114168006" duration="1464000" />
+      <workItem from="1503114168006" duration="2138000" />
+      <workItem from="1503356340860" duration="815000" />
+      <workItem from="1503391832917" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1502932816444</created>
@@ -408,17 +431,30 @@
       <option name="project" value="LOCAL" />
       <updated>1503114853971</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ini">
+      <created>1503138343038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1503138343038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests_in_test__pque - 2017.08.16 at 22h 44m 10s.xml">
-      <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_tests_in_test__pque - 2017.08.16 at 23h 00m 00s.xml">
       <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="All_tests_in_test__pque - 2017.08.19 at 12h 53m 11s.xml">
+      <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__pque - 2017.08.22 at 08h 06m 59s.xml">
+      <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__pque - 2017.08.22 at 17h 58m 14s.xml">
+      <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__pque - 2017.08.22 at 18h 02m 03s.xml">
       <configuration name="All tests in test: pque" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_test_'pque_test'__pque - 2017.08.16 at 22h 42m 42s.xml">
@@ -438,22 +474,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13072000" />
+    <option name="totallyTimeSpent" value="15342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="836" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21914357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22921914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -798,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pque_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/setup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -873,8 +901,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pque.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pque_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding />
         </state>
       </provider>
