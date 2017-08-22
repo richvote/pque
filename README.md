@@ -24,7 +24,7 @@ Or install it yourself as:
 ```
 require 'pque'
 
-pq = Pque.new
+pq = Pque.new # for descending order
 pq.push(1)
 pq.push(5)
 pq.push(4)
@@ -35,6 +35,8 @@ pq.push(2)
 pq.pop    #=> 3
 pq.pop    #=> 2
 pq.pop    #=> 1
+
+pq = Pque.new(false) # for ascending order
 ```
 ## Development
 
