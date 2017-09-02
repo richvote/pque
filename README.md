@@ -36,7 +36,7 @@ pq.pop    #=> 3
 pq.pop    #=> 2
 pq.pop    #=> 1
 
-pq = Pque.new(false) # for ascending  order
+pq = Pque.new(false) # for ascending order
 ```
 ## Development
 
