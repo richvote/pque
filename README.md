@@ -41,8 +41,27 @@ pq.pop    #=> 1
 pq = Pque.new(false) # for ascending order
 falseのときダイクストラ法でよく使われる小さい順となります。
 
-ウエイト付きのデータをキューに入れるには構造体をclassにして、
+ウエイト付きのデータをキューに入れるには構造体をclassにして、include Comparableのうえ
 <=>演算子をウエイトを比較するように再定義して使ってください。
+
+class Data
+  attr_accessor :data,:weight
+  include Comparable
+  def initialize(data,weight)
+    @data = data
+    @weight = weight
+  end
+  def <=>(other)
+    @weight <=> other.weight
+  end
+end
+
+que = Pque.new(false)
+que.push(Data.new("Hoge",3))
+que.push(Data.new("Fuga",2))
+que.pop
+que.pop
+
 
 ```
 ## Development
