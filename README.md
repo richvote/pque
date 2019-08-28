@@ -1,6 +1,8 @@
 # Pque
 
+100%　rubyで作ったプライオリティーキューです。
 Priority Que for ruby.
+ヒープソートを利用しています。
 Implementing Heap tree on Array, child1 as i\*2 + 1, child2 as i\*2 + 2.
 
 
@@ -37,6 +39,11 @@ pq.pop    #=> 2
 pq.pop    #=> 1
 
 pq = Pque.new(false) # for ascending order
+falseのときダイクストラ法でよく使われる小さい順となります。
+
+ウエイト付きのデータをキューに入れるには構造体をclassにして、
+<=>演算子をウエイトを比較するように再定義して使ってください。
+
 ```
 ## Development
 
