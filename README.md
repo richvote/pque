@@ -2,7 +2,7 @@
 
 100%　rubyで作ったプライオリティーキューです。
 Priority Que for ruby.
-ヒープソートを利用しています。
+ヒープツリーを利用しています。
 Implementing Heap tree on Array, child1 as i\*2 + 1, child2 as i\*2 + 2.
 
 
