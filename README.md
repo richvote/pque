@@ -59,8 +59,10 @@ end
 que = Pque.new(false)
 que.push(Data.new("Hoge",3))
 que.push(Data.new("Fuga",2))
-que.pop
-que.pop
+que.push(Data.new("HogeFuga",5))
+que.pop #=> #<@data="Fuga",@weight=2>
+que.pop #=> #<@data="Hoge",@weight=3>
+que.pop #=> #<@data="HogeFuga",@weight=5>
 
 
 ```
