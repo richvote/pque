@@ -38,7 +38,7 @@ class Pque < Array
       child1 = child2 if child2 < self.size &&
         popcomp.call(self[child2], self[child1])# ヒープの不等号で順序が逆に
       # もう逆転してないなら終わり
-      break if self[child1] <= x
+      break if self[child1] >= x
       # この数字を持ち上げる
       self[i] = self[child1]
       i = child1
